@@ -1,47 +1,273 @@
 <!DOCTYPE html>
-<html lang="en-US">
-
+<html lang="pt-br">
 <head>
 	<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>6th Semester | Kaushik Lakhani</title>
-	<link rel="stylesheet" href="style.css">
+	<title>5th Semester | Kaushik Lakhani</title>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 	<link rel="icon" href="https://avatars.githubusercontent.com/u/85815858?s=400&u=c0fee8a77bb17677355780fe215ea354a6dda41b&v=4" type="image/x-icon" />
 </head>
 <style>
-    .bg {
-  position: centre; 
-  top: 0; 
-  left: 0; 
-  padding-left: 4cm;
-	
-  /* Preserve aspet ratio */
-  min-width: 88%;
-  min-height: 95%;
+        *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .aboutMe {
+		color: #66FF00;
+		font-size: large;
+		font-weight: normal;
+		line-height: 1;
+		display: block;
+		width: 100%;
+		text-align: center;
+		text-decoration: none;
+}
+    body{
+        background-repeat: no-repeat;
+        background-image: url(BK2.jpg);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient( 68.1deg,  rgba(152,25,175,1) -0.1%, rgba(149,22,182,1) 8.2%, rgba(92,21,173,1) 49.1%, rgba(88,22,168,1) 57.9%, rgba(74,17,177,1) 85.2%, rgba(65,17,154,1) 100.1% );
+       }
+
+
+.container{
+       
+        width: 500px;
+        max-width: 800px;
+        max-width: 90vw;
+        height: auto;
+        /*margin top, right, bottom e left */
+        margin: 30px 10px 20px 10px;
+    }
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 30px;
+    letter-spacing:15px;
+    text-decoration: none;
+    
+}
+.social a i{
+    color:#000000 
+}
+social a i :hover{
+    color:#fff;
 }
 
-.footer {
-  position: floating;
-  left: 0;
-  bottom: 0;
-  height: 40px;
-  width: 100%;
-  color: blue;
-  text-align: center;
-  font-size:large
+.img-profile-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+.img-profile{
+        /*width: 150px;
+        height: 160px;
+        border-radius: 50%;*/
+        border-radius: 50%;
+        width: 96px;
+        height: 96px;
+        display: block;
+        object-fit:cover;
+        object-position: initial;
+        filter: none;
+    }
+.img-profile-box h1{
+        margin-top: 15px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        font-size: 22px;
+        color:#fff;
+        text-align: center;
+    }
+.img-profile-box h2{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 200;
+        font-size: 14px;
+        color: #fff;
+        text-align: center;
+    }
+.heading{
+    color: #E25822;
+    font-size: x-large;
+    font-weight: bold;
+    line-height: 1.25;
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
 }
+.link{
+    background-color: transparent;
+    color: var(--accentColor);
+    border: solid var(--accentColor) 2px;
+    border-radius: 10px;
+    font-size: large;
+    text-align: center;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 60px;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.link-box{
+        width: 100%;
+        height: 70px;
+        border-radius: 10px;
+        background-image: linear-gradient( 135deg, #FDEB71 10%, #F8D800 100%);
+        box-shadow: 5px 5px 10px #ac1a1a,-5px -5px 10px #f45d05;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
+.link-box a{
+        width: 100%;
+        height: 100%;
+        font-size: 19px;
+        font-family: 'Geneva', Geneva;
+        font-weight: bold;
+        margin-left: 5px;
+        color: #0a2351;
+        text-decoration: none;
+        display:flex;
+        align-items: center;
+        justify-content: flex-start;
+        text-align: center;
+    }
+.link-box i {
+        font-size: 25px;
+        margin-left:25px;
+        color:#fff;
+    }
+    .link-box:hover{
+       /* background-color: #252525;*/
+        animation:pulsate 2s ease-in-out;
+    }
+
+@keyframes pulsate{
+        0%{
+            box-shadow:
+                0 0 25px #4c3dab,
+                0 0 50px #E32636; 
+            ;
+        }
+    }
+    .footer {
+        position: floating;
+        left: 0;
+        bottom: 0;
+        height: 40px;
+        width: 100%;
+        color: #fff;
+        text-align: center;
+        font-size:small
+      }
+
 </style>
 <body>
+        <div class="container">
+            <header>
+                <div class="img-profile-box">
+                    <img src="/6TH SEM.png" alt="6th Semester" class="img-profile">
+                    <div class="aboutMe">
+                        In case you want to contribute, you can reach out to me through my socials given below. <br>
+                        Happy Learning !                    
+                </div>
+                </div>  
+                <div class="social">
+                    <a href="https://instagram.com/__k.a.a.l.__"><i class="fab fa-instagram"></i></a>
+                    <a href="https://discord.gg/MkJQX7XZFb"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/people/Kaushik-Lakhani/100008225834590/"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/_K_a_a_L"><i class="fab fa-twitter"></i></a>
+                </div>
+                <br>
+            </header>
 
-    <img class="bg" src="bsdk.jpeg" alt="">
+            <div class="heading">Study Materials</div>
+            <br>
+            <section>
+                <div class="link-box">
+                    <a class="link" href="https://drive.google.com/drive/folders/1h54x1_TMzOGv9vC9B8eF0GbPLi-Umkff?usp=share_link" target="_blank">Computer Networking Workshop</a>
+                </div>
+                <div class="link-box">
+                    <a class="link" href="https://drive.google.com/drive/folders/13uZPTMbGcSqpIRCabrusaQ07ECwR-zrF?usp=share_link" target="_blank">Introduction To Database</a>
+                </div>                 
+                <div class="link-box">
+                    <a class="link" href="https://drive.google.com/drive/folders/1lVD3E-8nyOg8QxkZZndqZN2N6vMJJiGc?usp=share_link" target="_blank">Cryptography and Network Security</a>
+                </div>
+                <div class="link-box">
+                    <a class="link" href="https://drive.google.com/drive/folders/16mDWYVJGtcUm5-C2n775xOO8lRUxFoWW?usp=share_link" target="_blank">Introduction to Data Science using Python</a>
+                </div>
+                <div class="link-box">
+                    <a class="link" href="https://drive.google.com/drive/folders/1R9ljdlD8LZNLqsOWcsaZaBlTncTeAmnX?usp=share_link" target="_blank">Programming Languages and Compilers</a>
+                </div>  
+                 <div class="link-box">
+                    <a class="link" href="https://drive.google.com/drive/folders/1HWdxyXe9G-dhsGcDQPbfWovp1BloidKa?usp=share_link" target="_blank">Web Application Development</a>
+                </div> 
+                  <div class="link-box">
+                    <a class="link" href="https://drive.google.com/drive/folders/1eWNBWcyCtL87l24aoO1gcOt-_9dSVvXF?usp=share_link" target="_blank">Web Technology Workshop 2</a>
+                </div>               
+        </section>
 
-    <div class="footer">
-			Made with ❤ by <a href="https://linktr.ee/kaushiklakhani"> Kaushik Lakhani </a> <br><br>
-			Visitor's Count :- <a href="https://www.freecounterstat.com" title="web counter"><img src="https://counter5.optistats.ovh/private/freecounterstat.php?c=suffk2penjda6e37l51p9b2sg67fz5cu" border="0" title="web counter" alt="web counter"></a>
+		<div class="heading">Lecture Videos</div>
+        <br>
+        <section>
+            <div class="link-box">
+                <a class="link" href="https://www.youtube.com/playlist?list=PLxCzCOWd7aiGFBD2-2joCpWOLUrDLvVV_" target="_blank">Computer Networking Workshop</a>
+            </div>
+            <div class="link-box">
+                <a class="link" href="https://www.youtube.com/playlist?list=PLxCzCOWd7aiFAN6I8CuViBuCdJgiOkT2Y" target="_blank">Introduction To Database</a>
+            </div>                 
+            <div class="link-box">
+                <a class="link" href="https://www.youtube.com/playlist?list=PLBlnK6fEyqRgJU3EsOYDTW7m6SUmW6kII" target="_blank">Cryptography and Network Security</a>
+            </div>
+            <div class="link-box">
+                <a class="link" href="https://www.youtube.com/playlist?list=PLeo1K3hjS3us_ELKYSj_Fth2tIEkdKXvV" target="_blank">Introduction to Data Science using Python</a>
+            </div>
+            <div class="link-box">
+                <a class="link" href="https://soadu.app.box.com/s/e4ppmpqgbrsr4vxihzo57zt74sn5m3ki" target="_blank">Programming Languages and Compilers</a>
+            </div>  
+             <div class="link-box">
+                <a class="link" href="https://www.youtube.com/playlist?list=PLu0W_9lII9agx66oZnT6IyhcMIbUMNMdt" target="_blank">Web Application Development</a>
+            </div> 
+              <div class="link-box">
+                <a class="link" href="https://youtu.be/jS4aFq5-91M" target="_blank">Web Technology Workshop 2</a>
+            </div> 
+        </section>
 
-		</div>
+        <div class="heading"> Lecture Videos </div>
+        <br>
+        <div class="link-box">
+            <a class="link" href="https://forms.gle/KhBUBkX2xDF6ceQV6" target="_blank">Internship/Job Opportunities</a>
+        </div> 
+        <div class="link-box">
+            <a class="link" href="http://115.240.101.71:8282/CampusPortalSOA/index#/" target="_blank">ITER Student Portal Login</a>
+        </div> 
+        <div class="link-box">
+            <a class="link" href="https://soadu.app.box.com/s/6znlp5doe6r1j5tvfa4dcrldi2bfczkb" target="_blank">CSE Academic Curriculum</a>
+        </div> 
+        <div class="link-box">
+            <a class="link" href="https://soadu.app.box.com/s/fm7gn4bsx3oq4covt0cz7z2qni9tki3g" target="_blank">CSIT Academic Curriculum</a>
+        </div> 
 
+
+        <div class="footer"> 
+        #Made with ❤ by Kaushik Lakhani
+        <br>
+        Visitor's Count :- <a href="https://www.freecounterstat.com" title="web counter"><img src="https://counter5.optistats.ovh/private/freecounterstat.php?c=suffk2penjda6e37l51p9b2sg67fz5cu" border="0" title="web counter" alt="web counter"></a>
+
+        </div>
 </body>
 </html>
